@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EditProfileController">
+   <children>
+      <TextField fx:id="edit_address_txt" layoutX="178.0" layoutY="286.0" prefHeight="29.0" prefWidth="244.0" promptText="shipping address" />
+      <TextField fx:id="edit_phone_txt" layoutX="178.0" layoutY="245.0" prefHeight="29.0" prefWidth="244.0" promptText="phone number" />
+      <TextField fx:id="edit_username_txt" layoutX="178.0" layoutY="125.0" prefHeight="29.0" prefWidth="244.0" promptText="username" />
+      <TextField fx:id="edit_lastname_txt" layoutX="306.0" layoutY="85.0" prefHeight="29.0" prefWidth="116.0" promptText="last name" />
+      <TextField fx:id="edit_firstname_txt" layoutX="178.0" layoutY="85.0" prefHeight="29.0" prefWidth="116.0" promptText="first name" />
+      <TextField fx:id="edit_email_txt" layoutX="178.0" layoutY="165.0" prefHeight="29.0" prefWidth="244.0" promptText="email address" />
+      <PasswordField fx:id="edit_password_txt" layoutX="178.0" layoutY="205.0" prefHeight="29.0" prefWidth="244.0" promptText="password" />
+      <Button layoutX="454.0" layoutY="357.0" mnemonicParsing="false" onAction="#save" prefHeight="29.0" prefWidth="54.0" text="save" />
+      <Button layoutX="517.0" layoutY="357.0" mnemonicParsing="false" onAction="#cancel" text="cancel" />
+   </children>
+</Pane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+   <children>
+      <Button fx:id="home_edit_btn" layoutX="220.0" layoutY="130.0" mnemonicParsing="false" onAction="#edit" prefHeight="29.0" prefWidth="161.0" text="Edit Profile" />
+      <Button fx:id="home_search_btn" layoutX="220.0" layoutY="167.0" mnemonicParsing="false" onAction="#search" prefHeight="29.0" prefWidth="161.0" text="Search for a Book" />
+      <Button fx:id="home_viewcart_btn" layoutX="220.0" layoutY="205.0" mnemonicParsing="false" onAction="#viewCart" prefHeight="29.0" prefWidth="161.0" text="View shopping cart" />
+      <Button fx:id="home_checkout_btn" layoutX="220.0" layoutY="242.0" mnemonicParsing="false" onAction="#checkout" prefHeight="29.0" prefWidth="161.0" text="Checkout" />
+      <Button fx:id="home_logout_btn" layoutX="14.0" layoutY="357.0" mnemonicParsing="false" onAction="#logout" prefHeight="29.0" prefWidth="133.0" text="logout" />
+      <Button fx:id="home_manager_btn" layoutX="452.0" layoutY="357.0" mnemonicParsing="false" onAction="#manager" prefHeight="29.0" prefWidth="133.0" text="Manager" />
+      <Label layoutX="274.0" layoutY="14.0" text="Home">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

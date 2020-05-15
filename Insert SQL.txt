@@ -1,0 +1,25 @@
+//insert command
+
+INSERT INTO Publisher
+VALUES (publisherName, address, phone);
+
+INSERT INTO Book
+VALUES (ISBN, title, publisherName, noOfCopies, categoryName,
+        price, publicationYear);
+
+INSERT INTO Author
+VALUES bookid, authorName);
+
+
+INSERT INTO User
+VALUES (userid, username, password, email, address, firstName,
+        lastName, phone);
+
+INSERT INTO Order
+VALUES orderid, bookid, userid, noOfCopies, Ordercol);
+
+INSERT INTO Cart
+VALUES cartid, bookid, userid);
+
+
+

@@ -1,0 +1,153 @@
+//update command
+
+UPDATE Publisher
+SET publisherName = 'NAME', address = 'ADDRESS', phone = 'PHONE'
+WHERE publisherName = 'X';
+
+UPDATE Publisher
+SET publisherName = 'NAME', address = 'ADDRESS', phone = 'PHONE'
+WHERE address = 'X';
+
+UPDATE Publisher
+SET publisherName = 'NAME', address = 'ADDRESS', phone = 'PHONE'
+WHERE phone = 'X';
+----------------------------------------------------------------------
+
+UPDATE Book
+SET ISBN = 'ISB', title = 'TITLE', publisherName = 'NAME',
+    noOfCopies = NUMBER, categoryName = 'NAME', price = PRICE, 
+    publicationYear = 'YEAR'
+WHERE ISBN = 'X';
+
+UPDATE Book
+SET ISBN = 'ISB', title = 'TITLE', publisherName = 'NAME',
+    noOfCopies = NUMBER, categoryName = 'NAME', price = PRICE, 
+    publicationYear = 'YEAR'
+WHERE title = 'X';
+
+UPDATE Book
+SET ISBN = 'ISB', title = 'TITLE', publisherName = 'NAME',
+    noOfCopies = NUMBER, categoryName = 'NAME', price = PRICE, 
+    publicationYear = 'YEAR'
+WHERE publisherName = 'X';
+
+UPDATE Book
+SET ISBN = 'ISB', title = 'TITLE', publisherName = 'NAME',
+    noOfCopies = NUMBER, categoryName = 'NAME', price = PRICE, 
+    publicationYear = 'YEAR'
+WHERE noOfCopies = X;
+
+UPDATE Book
+SET ISBN = 'ISB', title = 'TITLE', publisherName = 'NAME',
+    noOfCopies = NUMBER, categoryName = 'NAME', price = PRICE, 
+    publicationYear = 'YEAR'
+WHERE categoryName = 'X';
+
+UPDATE Book
+SET ISBN = 'ISB', title = 'TITLE', publisherName = 'NAME',
+    noOfCopies = NUMBER, categoryName = 'NAME', price = PRICE, 
+    publicationYear = 'YEAR'
+WHERE price = X;
+
+UPDATE Book
+SET ISBN = 'ISB', title = 'TITLE', publisherName = 'NAME',
+    noOfCopies = NUMBER, categoryName = 'NAME', price = PRICE, 
+    publicationYear = 'YEAR'
+WHERE publicationYear = 'X';
+---------------------------------------------------------------------
+
+UPDATE Author
+SET bookid = ID, authorName = 'NAME'
+WHERE bookid = X;
+
+UPDATE Author
+SET bookid = ID, authorName = 'NAME'
+WHERE authorName = 'X';
+---------------------------------------------------------------------
+
+UPDATE User
+SET userid = 'ID', username = 'NAME', password = 'PASSWORD',
+    email = 'EMAIL', address = 'ADDRESS', firstName = 'NAME', 
+    lastName = 'NAME', phone = 'PHONE'
+WHERE userid = 'X';
+
+UPDATE User
+SET userid = 'ID', username = 'NAME', password = 'PASSWORD',
+    email = 'EMAIL', address = 'ADDRESS', firstName = 'NAME', 
+    lastName = 'NAME', phone = 'PHONE'
+WHERE username = 'X';
+
+UPDATE User
+SET userid = 'ID', username = 'NAME', password = 'PASSWORD',
+    email = 'EMAIL', address = 'ADDRESS', firstName = 'NAME', 
+    lastName = 'NAME', phone = 'PHONE'
+WHERE password = 'X';
+
+UPDATE User
+SET userid = 'ID', username = 'NAME', password = 'PASSWORD',
+    email = 'EMAIL', address = 'ADDRESS', firstName = 'NAME', 
+    lastName = 'NAME', phone = 'PHONE'
+WHERE email = 'X';
+
+UPDATE User
+SET userid = 'ID', username = 'NAME', password = 'PASSWORD',
+    email = 'EMAIL', address = 'ADDRESS', firstName = 'NAME', 
+    lastName = 'NAME', phone = 'PHONE'
+WHERE address = 'X';
+
+UPDATE User
+SET userid = 'ID', username = 'NAME', password = 'PASSWORD',
+    email = 'EMAIL', address = 'ADDRESS', firstName = 'NAME', 
+    lastName = 'NAME', phone = 'PHONE'
+WHERE firstName = 'X';
+
+UPDATE User
+SET userid = 'ID', username = 'NAME', password = 'PASSWORD',
+    email = 'EMAIL', address = 'ADDRESS', firstName = 'NAME', 
+    lastName = 'NAME', phone = 'PHONE'
+WHERE lastName = 'X';
+
+UPDATE User
+SET userid = 'ID', username = 'NAME', password = 'PASSWORD',
+    email = 'EMAIL', address = 'ADDRESS', firstName = 'NAME', 
+    lastName = 'NAME', phone = 'PHONE'
+WHERE phone = 'X';
+----------------------------------------------------------------------
+
+UPDATE Order
+SET orderid = 'ID', bookid = ID, userid = 'ID',
+    noOfCopies = NUMBER, Ordercol = 'ORDER'
+WHERE orderid = 'X';
+
+UPDATE Order
+SET orderid = 'ID', bookid = ID, userid = 'ID',
+    noOfCopies = NUMBER, Ordercol = 'ORDER'
+WHERE bookid = X;
+
+UPDATE Order
+SET orderid = 'ID', bookid = ID, userid = 'ID',
+    noOfCopies = NUMBER, Ordercol = 'ORDER'
+WHERE userid = 'X';
+
+UPDATE Order
+SET orderid = 'ID', bookid = ID, userid = 'ID',
+    noOfCopies = NUMBER, Ordercol = 'ORDER'
+WHERE noOfCopies = X;
+
+UPDATE Order
+SET orderid = 'ID', bookid = ID, userid = 'ID',
+    noOfCopies = NUMBER, Ordercol = 'ORDER'
+WHERE Ordercol = 'X';
+-----------------------------------------------------------------------
+
+UPDATE Cart
+SET cartid = 'ID', bookid = ID, userid = 'ID'
+WHERE cartid = 'X';
+
+UPDATE Cart
+SET cartid= 'ID', bookid= ID, userid = 'ID'
+WHERE bookid = X;
+
+UPDATE Cart
+SET cartid= 'ID', bookid= ID, userid = 'ID'
+WHERE userid = 'X';

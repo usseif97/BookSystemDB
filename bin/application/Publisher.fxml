@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PublisherController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="back" />
+      <TextField fx:id="publisher_txt" layoutX="160.0" layoutY="145.0" prefHeight="29.0" prefWidth="281.0" promptText="Publisher name" />
+      <TextField fx:id="publisher_address_txt" layoutX="160.0" layoutY="185.0" prefHeight="29.0" prefWidth="281.0" promptText="Publisher address" />
+      <TextField fx:id="publisher_phone_txt" layoutX="160.0" layoutY="226.0" prefHeight="29.0" prefWidth="281.0" promptText="Publisher number" />
+      <Button layoutX="268.0" layoutY="277.0" mnemonicParsing="false" onAction="#add" prefHeight="29.0" prefWidth="65.0" text="add" />
+   </children>
+</Pane>

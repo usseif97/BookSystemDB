@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SearchBookController">
+   <children>
+      <TextField fx:id="searchbook_txt" layoutX="134.0" layoutY="13.0" prefHeight="29.0" prefWidth="384.0" promptText="Search Book" />
+      <Button layoutX="529.0" layoutY="13.0" mnemonicParsing="false" onAction="#search" text="Search" />
+      <Button layoutX="14.0" layoutY="13.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <ScrollPane fx:id="searchbook_results" layoutX="15.0" layoutY="52.0" prefHeight="334.0" prefWidth="570.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+   </children>
+</Pane>

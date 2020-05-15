@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegisterController">
+   <children>
+      <Button fx:id="login_register_btn" layoutX="269.0" layoutY="319.0" mnemonicParsing="false" onAction="#register" prefHeight="29.0" prefWidth="83.0" text="REGISTER" />
+      <PasswordField fx:id="login_password_txt" layoutX="188.0" layoutY="185.0" prefHeight="29.0" prefWidth="244.0" promptText="password" />
+      <TextField fx:id="login_email_txt" layoutX="188.0" layoutY="145.0" prefHeight="29.0" prefWidth="244.0" promptText="email address" />
+      <TextField fx:id="login_firstname_txt" layoutX="188.0" layoutY="65.0" prefHeight="29.0" prefWidth="116.0" promptText="first name" />
+      <TextField fx:id="login_lastname_txt" layoutX="316.0" layoutY="65.0" prefHeight="29.0" prefWidth="116.0" promptText="last name" />
+      <TextField fx:id="login_username_txt" layoutX="188.0" layoutY="105.0" prefHeight="29.0" prefWidth="244.0" promptText="username" />
+      <TextField fx:id="login_phone_txt" layoutX="188.0" layoutY="225.0" prefHeight="29.0" prefWidth="244.0" promptText="phone number" />
+      <TextField fx:id="login_address_txt" layoutX="188.0" layoutY="266.0" prefHeight="29.0" prefWidth="244.0" promptText="shipping address" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="back" />
+   </children>
+</Pane>

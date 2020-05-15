@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button layoutX="237.0" layoutY="167.0" mnemonicParsing="false" onAction="#login" prefHeight="29.0" prefWidth="126.0" text="LOGIN" />
+      <Button layoutX="237.0" layoutY="205.0" mnemonicParsing="false" onAction="#register" prefHeight="29.0" prefWidth="126.0" text="REGISTER" />
+   </children>
+</Pane>

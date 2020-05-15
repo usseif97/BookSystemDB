@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ModifyBookController">
+   <children>
+      <TextField fx:id="category_txt" layoutX="173.0" layoutY="312.0" prefHeight="29.0" prefWidth="275.0" promptText="category" />
+      <TextField fx:id="threshold_txt" layoutX="173.0" layoutY="273.0" prefHeight="29.0" prefWidth="275.0" promptText="threshold" />
+      <TextField fx:id="price_txt" layoutX="173.0" layoutY="235.0" prefHeight="29.0" prefWidth="275.0" promptText="price" />
+      <TextField fx:id="publication_txt" layoutX="173.0" layoutY="197.0" prefHeight="29.0" prefWidth="275.0" promptText="publication year" />
+      <TextField fx:id="publisher_txt" layoutX="173.0" layoutY="159.0" prefHeight="29.0" prefWidth="275.0" promptText="publisher" />
+      <TextField fx:id="author_txt" layoutX="173.0" layoutY="119.0" prefHeight="29.0" prefWidth="275.0" promptText="author(s) ex: ahmad, mohamed" />
+      <TextField fx:id="title_txt" layoutX="173.0" layoutY="80.0" prefHeight="29.0" prefWidth="275.0" promptText="title" />
+      <TextField fx:id="ISBN_txt" layoutX="173.0" layoutY="41.0" prefHeight="29.0" prefWidth="275.0" promptText="ISBN" />
+      <Button layoutX="530.0" layoutY="353.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <Button layoutX="479.0" layoutY="353.0" mnemonicParsing="false" onAction="#save" text="save" />
+   </children>
+</Pane>

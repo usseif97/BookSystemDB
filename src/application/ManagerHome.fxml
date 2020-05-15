@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManagerController">
+   <children>
+      <Label layoutX="245.0" layoutY="23.0" text="Manager Home">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="manager_confirmorder_btn" layoutX="230.0" layoutY="223.0" mnemonicParsing="false" onAction="#confirmOrder" prefHeight="29.0" prefWidth="161.0" text="Confirm Order" />
+      <Button fx:id="manager_placeorder_btn" layoutX="230.0" layoutY="186.0" mnemonicParsing="false" onAction="#placeOreder" prefHeight="29.0" prefWidth="161.0" text="Place Order" />
+      <Button fx:id="manager_modifybook_btn" layoutX="230.0" layoutY="148.0" mnemonicParsing="false" onAction="#modifyBook" prefHeight="29.0" prefWidth="161.0" text="Modify existing Book" />
+      <Button fx:id="manager_addbook_btn" layoutX="230.0" layoutY="109.0" mnemonicParsing="false" onAction="#addBook" prefHeight="29.0" prefWidth="161.0" text="Add new Book" />
+      <Button fx:id="manager_promote_btn" layoutX="230.0" layoutY="262.0" mnemonicParsing="false" onAction="#promoteCustomer" prefHeight="29.0" prefWidth="161.0" text="Promote a customer" />
+      <Button fx:id="manager_reports_btn" layoutX="230.0" layoutY="301.0" mnemonicParsing="false" onAction="#viewReports" prefHeight="29.0" prefWidth="161.0" text="View Reports" />
+      <Button layoutX="14.0" layoutY="22.0" mnemonicParsing="false" onAction="#back" text="back" />
+      <Button layoutX="230.0" layoutY="71.0" mnemonicParsing="false" onAction="#publisher" prefHeight="29.0" prefWidth="161.0" text="Add publisher" />
+   </children>
+</Pane>
